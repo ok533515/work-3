@@ -1,0 +1,46 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>calculator</title>
+   </head>
+   <body>
+        <div class="conteiner flex-column">
+           <div class="desktop">
+                <input type="text" id="input" readonly>
+           </div>
+           
+           <div class="buttons  btn-row">
+                <button class="btn"onclick="addInput ('1')">1</button>
+                <button class="btn"onclick="addInput ('2')">2</button>
+                <button class="btn"onclick="addInput ('3')">3</button>
+                <button class="btn"onclick="appOper ('+')">+</button>
+               
+           </div>
+           <div class="buttons btn-row">
+                <button class="btn"onclick="addInput ('4')">4</button>
+                <button class="btn"onclick="addInput ('5')">5</button>
+                <button class="btn"onclick="addInput ('6')">6</button>
+                <button class="btn"onclick="appOper ('-')">-</button>
+            </div>
+            <div class="buttons btn-row">
+                <button class="btn"onclick="addInput ('7')">7</button>
+                <button class="btn"onclick="addInput ('8')">8</button>
+                <button class="btn"onclick="addInput ('9')">9</button>
+                <button class="btn"onclick="appOper ('*')">*</button>
+               
+            </div>
+            <div class="buttons btn-row">
+                <button class="btn"onclick="addInput ('0')">0</button>
+                <button class="btn"onclick="addInputResult ('=')">=</button>
+                <button class="btn"onclick="addInputClear ('')">C</button>
+                <button class="btn"onclick="appOper ('/')">/</button>
+            </div>
+        </div>
+    
+  
+        <script src="mail.js"></script>
+   </body>
+   </html>
